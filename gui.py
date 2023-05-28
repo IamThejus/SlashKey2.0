@@ -180,7 +180,7 @@ data = json.loads(read_file)
 
 def reply(disease):
     chat=f'{disease} what are medicine doctors precsribe in 200 words'
-    openai.api_key='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'
+    openai.api_key="<API KEY>"
     engines = openai.Engine.list()
     input_data=openai.Completion.create(
     model="text-davinci-003",
